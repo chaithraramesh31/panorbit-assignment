@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+}
+.btn{
+    margin: 0 30px;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    
+}
+.btn-title{
+    color: rgba(255,255,255,.5);
+    transition: .5s;
+}
+.btn-title.active{
+    color: #fff;
+}

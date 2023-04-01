@@ -1,0 +1,121 @@
+.profile-container{
+    width: calc(100% - 200px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    max-width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #545454;
+    margin: 0 30px;
+    border-bottom: 1px solid rgba(84, 84, 84,.35);
+}
+.header h4{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.body{
+    display: flex;
+    padding: 0 35px;
+}
+.user-company{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.user-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    margin: 0px 20px;
+    border-bottom: 1px solid rgba(84, 84, 84,.2);
+}
+.user-body .imgBx{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-body .imgBx img{
+    width: 100%;
+    height: 100%;
+}
+.user-body p{
+    color: rgb(84, 84, 84);
+    font-size: 18px;
+    font-weight: 650;
+    margin: 8px; 
+}
+.table{
+    display: grid;
+    grid-template-columns: max-content max-content;
+}
+.table *:nth-child(odd){
+    text-align: right;
+    color: rgba(84, 84, 84,.5);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.table *:nth-child(even){
+    color: rgb(84, 84, 84);
+    text-align: left;
+    font-size: 17px;
+    font-weight: 650; 
+    max-width: 250px;
+}
+.company-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+}
+.company-body p{
+    color: rgba(84, 84, 84,.5);
+    font-size: 18px;
+    font-weight: 500;
+}
+.address-body{
+    margin: 20px;
+    padding-left: 30px;
+    border-left: 1px solid rgba(84, 84, 84,.2);
+}
+.address-body p{
+    color: rgba(84, 84, 84,.5);
+    font-size: 18px;
+    font-weight: 500;
+}
+.table.address{
+    padding-left: 20px;
+}
+.map-image{
+    width: 500px;
+    height: 250px;
+    margin: 10px 0 8px 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.map-image img{
+    width: 100%;
+    height: 100%;
+}
+.ltd-lng{
+    position: absolute;
+    right: 90px;
+    display: flex;
+    gap: 20px;
+    color: #545454;
+    font-size: 12px;
+    font-weight:600;
+}
+span{
+    font-size: .95em;
+    color: rgba(84, 84, 84,.5);
+}

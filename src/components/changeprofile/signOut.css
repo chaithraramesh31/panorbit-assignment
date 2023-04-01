@@ -1,0 +1,82 @@
+.signout-box{
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    width: 250px;
+    height: 300px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 35px rgba(0,0,0,.3);
+}
+.signout-box .imgBx{
+    min-width: 70px;
+    min-height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.signout-box .imgBx img{
+    width: 100%;
+    height: 100%;
+}
+.signout-box h4{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(84, 84, 84,.8);
+}
+.signout-box .email{
+    margin: 10px;
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(84, 84, 84,.5);
+}
+.users-list{
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    margin: 5px;
+    overflow-y: scroll;
+}
+.users-list::-webkit-scrollbar{
+    width: 5.5px;
+}
+.users-list::-webkit-scrollbar-thumb{
+    background: rgba(84, 84, 84,.2);
+    border-radius: 20px;
+}
+.users{
+    max-height: 35px;
+    color: #545454;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 30px;
+    border-top: 1px solid rgba(84, 84, 84,.35);
+    cursor: pointer;
+}
+.users .imgBox{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.users .imgBox img{
+    width: 100%;
+    height: 100%;
+}
+.users p{
+    font-size: 13px;
+}
+.sign-out-btn{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #d55151;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}

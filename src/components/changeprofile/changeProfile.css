@@ -1,0 +1,16 @@
+.change-profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.change-profile .imgBx{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.change-profile .imgBx img{
+    width: 100%;
+    height: 100%;
+}

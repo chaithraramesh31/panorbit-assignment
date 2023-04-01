@@ -1,0 +1,102 @@
+.subChat-container{
+    position: absolute;
+    bottom: 0px;
+    right: 250px;
+    width: 220px;
+    height: 205px;
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.subChat-header{
+    max-width: 100%;
+    height: 35px;
+    background: #2c65c8;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 10px;
+}
+.subChat-header .imgBx{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.subChat-header .imgBx img{
+    width: 100%;
+    height: 100%;
+}
+.subChat-header p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+.close{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+.subChat-body{
+    max-width: 100%;
+    height: 140px;
+    padding-right: 10px;
+    border-left: 1px solid #2c65c8;
+    border-right: 1px solid #2c65c8;
+    overflow-y: scroll;
+}
+.subChat-body .body-msg{
+    display: inline-block;
+    max-width: 120px;
+    font-size: 11px;
+    margin: 5px 0;
+    padding: 5px;
+    color: rgb(84, 84, 84,.7);
+    background: rgba(84, 84, 84,.1);
+    border-radius: 2px;
+}
+.subChat-body div:nth-of-type(1),
+.subChat-body div:nth-of-type(2){
+    margin-left: 20px;
+}
+.subChat-body div:nth-of-type(3),
+.subChat-body div:nth-of-type(4){
+    float: right;
+    margin-left: 40px;
+}
+.subChat-body p{
+    text-align: center;
+    font-size: 11px;
+    margin: 0;
+    color: rgb(84, 84, 84,.7);
+}
+.subChat-body::-webkit-scrollbar{
+    width: 5.5px;
+}
+.subChat-body::-webkit-scrollbar-thumb{
+    background: rgba(84, 84, 84,.2);
+    border-radius: 20px;
+}
+.subChat-msgbox{
+    max-width: 100%;
+    height: 25px;
+    border: 1px solid rgba(84, 84, 84,.5);
+}
+.send{
+    position: absolute;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c65c8;
+    cursor: pointer;
+}
